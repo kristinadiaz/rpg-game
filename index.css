@@ -1,9 +1,8 @@
-/* HTML, Body, Main */
 html, body {
     padding: 0;
     margin: 0;
     background: rgb(51, 43, 55);
-    background: radial-gradient(circle, rgba(51, 43, 55, 1) 0%, rgba(51, 43, 55,1) 100%);
+    background: radial-gradient(circle, rgba(51, 43, 55, 1) 0%, rgba(51, 43, 55, 1) 100%);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,7 +14,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 0.5rem;
+    margin-top: .5rem;
 }
 
 @media(min-width: 550px) {
@@ -28,7 +27,6 @@ main {
     }
 }
 
-/* Characters */
 .character-card {
     height:14rem;
     margin-top: .5rem;
@@ -47,26 +45,26 @@ main {
                 0px 0px 10px rgba(117,182,214,0.2);
 }
 
-@media(min-width: 550px) {
+@media(min-width:550px){
     .character-card {
         border: 0.2rem solid #000721;
-        height: 26rem;
-        width: 37vw;
+        height:26rem;
+        width:37vw;
     }
 }
 
 .name {
     margin: 1vh 0;
-    width: 100%;
+    width:100%;
     letter-spacing: 0.08em;
     font-size: 90%;
 }
 
-@media(min-width: 550px) {
+@media(min-width:550px){
     .name {
-        margin: 2vh 0;
-        font-size: 100%;
-    }
+    margin: 2vh 0;
+    font-size: 100%;
+}
 }
 
 .avatar {
@@ -78,13 +76,12 @@ main {
     background-color: rgba(0, 7, 33, 0.8);
 }
 
-@media(min-width: 550px) {
+@media(min-width:550px){
     .avatar {
         width: 25vh;
     }
 }
 
-/* Health */
 .health {
     font-size:1.1rem;
     font-weight: normal;
@@ -124,7 +121,6 @@ main {
     background:#d1435f;
 }
 
-/* Dice */
 .dice-container {
     width:100%;
     height: 20%;
@@ -170,7 +166,6 @@ main {
     background-color: transparent;
 }
 
-/* Button */
 button {
     margin-top: .5rem;
     font-family: 'MedievalSharp', cursive;
@@ -198,7 +193,6 @@ button {
 
 button:focus { outline: 0 }
 
-/* End Game */
 .end-game{
     margin-top: 25%;
     text-align: center;
